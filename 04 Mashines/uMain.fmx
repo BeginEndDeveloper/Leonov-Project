@@ -1,0 +1,207 @@
+object Form2: TForm2
+  Left = 540
+  Top = 330
+  Caption = 'Form2'
+  ClientHeight = 435
+  ClientWidth = 661
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 540
+  Top = 330
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 376.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Layout1: TLayout
+    Position.X = 64.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 513.000000000000000000
+    Size.Height = 313.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Rectangle1: TRectangle
+      Fill.Color = claDarkgray
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle10: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 289.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle11: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 320.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle12: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 353.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle13: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 384.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle14: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 417.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle15: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 448.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle16: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 480.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 33.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle3: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 64.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle4: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 97.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle5: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 128.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle6: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 161.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle7: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 192.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle8: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 225.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+    object Rectangle9: TRectangle
+      Fill.Color = claDarkgray
+      Position.X = 256.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 300.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+    end
+  end
+  object recBlue: TRectangle
+    Fill.Color = claBlue
+    Position.X = 64.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claBlue
+    object FloatAnimation1: TFloatAnimation
+      Enabled = True
+      Duration = 11.000000000000000000
+      PropertyName = 'Position.X'
+      StartValue = 64.000000000000000000
+      StopValue = 592.000000000000000000
+    end
+  end
+  object recYellow: TRectangle
+    Fill.Color = claYellow
+    Position.X = 64.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claYellow
+    object FloatAnimation2: TFloatAnimation
+      Enabled = True
+      Duration = 11.000000000000000000
+      PropertyName = 'Position.X'
+      StartValue = 64.000000000000000000
+      StopValue = 592.000000000000000000
+    end
+  end
+end
