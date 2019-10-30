@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 750
+  Top = 270
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 430
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 750
+  Top = 270
+  DesignerMasterStyle = 3
+  object Circle1: TCircle
+    Position.X = 184.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object FloatAnimation1: TFloatAnimation
+      AutoReverse = True
+      Enabled = True
+      Duration = 1.000000000000000000
+      Interpolation = Quadratic
+      Loop = True
+      PropertyName = 'Position.Y'
+      StartValue = 0.000000000000000000
+      StopValue = 264.000000000000000000
+    end
+  end
+end
