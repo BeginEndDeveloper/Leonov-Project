@@ -1,0 +1,43 @@
+object Main: TMain
+  Left = 0
+  Top = 0
+  Caption = #1058#1072#1081#1084#1077#1088
+  ClientHeight = 232
+  ClientWidth = 241
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object lTime: TLabel
+    Align = MostTop
+    Size.Width = 241.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = '0'
+    TabOrder = 0
+  end
+  object bStart: TButton
+    Anchors = []
+    Position.X = 24.000000000000000000
+    Position.Y = 72.000000000000000000
+    TabOrder = 2
+    Text = #1057#1090#1072#1088#1090
+    OnClick = bStartClick
+  end
+  object bStop: TButton
+    Anchors = []
+    Position.X = 144.000000000000000000
+    Position.Y = 72.000000000000000000
+    TabOrder = 1
+    Text = #1057#1090#1086#1087
+    OnClick = bStopClick
+  end
+  object Timer: TTimer
+    Enabled = False
+    OnTimer = TimerTimer
+    Left = 40
+    Top = 160
+  end
+end

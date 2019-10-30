@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{528DF567-4668-4036-9F9E-FB93102A2240}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01 Timer\Timer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02 Test Biology\TestByology.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03 Circle Bool\CircleBool.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04 Mashines\Mashines.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Timer">
+        <MSBuild Projects="01 Timer\Timer.dproj"/>
+    </Target>
+    <Target Name="Timer:Clean">
+        <MSBuild Projects="01 Timer\Timer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Timer:Make">
+        <MSBuild Projects="01 Timer\Timer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestByology">
+        <MSBuild Projects="02 Test Biology\TestByology.dproj"/>
+    </Target>
+    <Target Name="TestByology:Clean">
+        <MSBuild Projects="02 Test Biology\TestByology.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestByology:Make">
+        <MSBuild Projects="02 Test Biology\TestByology.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CircleBool">
+        <MSBuild Projects="03 Circle Bool\CircleBool.dproj"/>
+    </Target>
+    <Target Name="CircleBool:Clean">
+        <MSBuild Projects="03 Circle Bool\CircleBool.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CircleBool:Make">
+        <MSBuild Projects="03 Circle Bool\CircleBool.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Mashines">
+        <MSBuild Projects="04 Mashines\Mashines.dproj"/>
+    </Target>
+    <Target Name="Mashines:Clean">
+        <MSBuild Projects="04 Mashines\Mashines.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Mashines:Make">
+        <MSBuild Projects="04 Mashines\Mashines.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
