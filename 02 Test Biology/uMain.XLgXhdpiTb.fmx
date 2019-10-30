@@ -1,0 +1,105 @@
+inherited Main_XLgXhdpiTb: TMain_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited tbMain: TTabControl
+    Size.Width = 800.000000000000000000
+    Size.Height = 1159.000000000000000000
+    Sizes = (
+      800s
+      1159s
+      800s
+      1159s
+      800s
+      1159s
+      800s
+      1159s
+      800s
+      1159s)
+    inherited tiQuestion1: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 800.000000000000000000
+      end
+      inherited b2Q1: TButton [1]
+        Position.Y = 545.000000000000000000
+      end
+      inherited b3Q1: TButton [2]
+        Position.X = 259.673919677734400000
+        Position.Y = 513.746215820312500000
+      end
+      inherited b4Q1: TButton [3]
+        Position.Y = 1082.000000000000000000
+      end
+      inherited lAnt1: TLabel [4]
+        Size.Width = 800.000000000000000000
+      end
+    end
+    inherited tiQuestion2: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Label3: TLabel
+        Size.Width = 800.000000000000000000
+      end
+      inherited lAnt2: TLabel
+        Size.Width = 800.000000000000000000
+      end
+    end
+    inherited tiQuestion3: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Label5: TLabel
+        Size.Width = 800.000000000000000000
+      end
+      inherited lAnt3: TLabel
+        Size.Width = 800.000000000000000000
+      end
+    end
+    inherited tiQuestion4: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Label7: TLabel
+        Size.Width = 800.000000000000000000
+      end
+      inherited lAnt4: TLabel
+        Size.Width = 800.000000000000000000
+      end
+      inherited b1Q4: TButton
+        Position.X = 734.511962890625000000
+        Position.Y = 515.230957031250000000
+      end
+    end
+    inherited tiResult: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited ToolBar3: TToolBar
+        Position.Y = 1111.000000000000000000
+        Size.Width = 800.000000000000000000
+      end
+      inherited Memo1: TMemo
+        Size.Width = 800.000000000000000000
+        Size.Height = 1111.000000000000000000
+        Viewport.Width = 800.000000000000000000
+        Viewport.Height = 1111.000000000000000000
+      end
+    end
+  end
+  inherited tbTop: TToolBar
+    Size.Width = 800.000000000000000000
+    inherited Label2: TLabel
+      Padding.Left = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Margins.Left = 5.000000000000000000
+      RotationCenter.X = 0.000000000000000000
+      Size.Width = 747.000000000000000000
+    end
+    inherited SpeedButton5: TSpeedButton
+      Position.X = 752.000000000000000000
+    end
+  end
+  inherited tbBottom: TToolBar
+    Position.Y = 1207.000000000000000000
+    Size.Width = 800.000000000000000000
+  end
+end

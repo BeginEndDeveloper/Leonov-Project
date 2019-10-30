@@ -1,0 +1,439 @@
+object Main: TMain
+  Left = 0
+  Top = 0
+  Caption = #1058#1077#1089#1090' '#1087#1086' '#1041#1080#1086#1083#1086#1075#1080#1080
+  ClientHeight = 509
+  ClientWidth = 345
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object tbMain: TTabControl
+    Align = Client
+    Size.Width = 345.000000000000000000
+    Size.Height = 413.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      345s
+      413s
+      345s
+      413s
+      345s
+      413s
+      345s
+      413s
+      345s
+      413s)
+    object tiQuestion1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Label1: TLabel
+        Align = MostTop
+        Size.Width = 345.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemdetaillabel'
+        TextSettings.HorzAlign = Center
+        Text = #1050#1072#1082' '#1085#1072#1079#1099#1074#1072#1102#1090#1089#1103' '#1086#1089#1085#1086#1074#1085#1099#1077' '#1087#1077#1088#1100#1103' '#1087#1090#1080#1094'?'
+        TabOrder = 0
+      end
+      object b3Q1: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 40.000000000000000000
+        Position.Y = 229.000000000000000000
+        Size.Width = 273.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = #1050#1086#1085#1090#1091#1088#1085#1099#1077
+        OnClick = bQuest1Click
+      end
+      object b4Q1: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 40.000000000000000000
+        Position.Y = 272.000000000000000000
+        Size.Width = 273.000000000000000000
+        Size.Height = 69.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = #1052#1072#1093#1086#1074#1099#1077
+        OnClick = bQuest1Click
+      end
+      object lAnt1: TLabel
+        Align = Top
+        Position.Y = 40.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = #1042#1072#1096' '#1086#1090#1074#1077#1090
+        TabOrder = 1
+      end
+      object b2Q1: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 40.000000000000000000
+        Position.Y = 156.000000000000000000
+        Size.Width = 273.000000000000000000
+        Size.Height = 69.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = #1056#1091#1083#1077#1074#1099#1077
+        OnClick = bQuest1Click
+      end
+      object b1Q1: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 40.000000000000000000
+        Position.Y = 84.000000000000000000
+        Size.Width = 273.000000000000000000
+        Size.Height = 69.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = #1055#1091#1093#1086#1074#1099#1077
+        OnClick = bQuest1Click
+      end
+    end
+    object tiQuestion2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Label3: TLabel
+        Align = Top
+        Size.Width = 345.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemdetaillabel'
+        TextSettings.HorzAlign = Center
+        Text = #1050#1080#1083#1100' '#1075#1088#1091#1076#1080#1085#1099' '#1091' '#1083#1077#1090#1072#1102#1097#1080#1093' '#1087#1090#1080#1094' '#1085#1091#1078#1077#1085' '#1076#1083#1103':'
+        TabOrder = 0
+      end
+      object lAnt2: TLabel
+        Align = Top
+        Position.Y = 40.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = #1042#1072#1096' '#1086#1090#1074#1077#1090
+        TabOrder = 1
+      end
+      object b1Q2: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 108.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = #1050#1088#1077#1087#1083#1077#1085#1080#1103' '#1089#1091#1089#1090#1072#1074#1086#1074' '#1087#1083#1077#1095#1077#1074#1086#1081' '#1082#1086#1089#1090#1080
+        TextSettings.WordWrap = True
+        OnClick = bQuest2Click
+      end
+      object b2Q2: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 172.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = #1082#1088#1077#1087#1083#1077#1085#1080#1077' '#1075#1088#1091#1076#1085#1099#1093' '#1084#1099#1096#1094
+        TextSettings.WordWrap = True
+        OnClick = bQuest2Click
+      end
+      object b3Q2: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 236.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = #1082#1088#1077#1087#1083#1077#1085#1080#1103' '#1089#1091#1089#1090#1072#1074#1086#1074' '#1073#1077#1076#1088#1077#1085#1085#1086#1081' '#1082#1086#1089#1090#1080
+        TextSettings.WordWrap = True
+        OnClick = bQuest2Click
+      end
+      object b4Q2: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 308.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = #1082#1088#1077#1087#1083#1077#1085#1080#1103' '#1084#1072#1093#1086#1074#1099#1093' '#1087#1077#1088#1100#1077#1074
+        TextSettings.WordWrap = True
+        OnClick = bQuest2Click
+      end
+    end
+    object tiQuestion3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '3'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Label5: TLabel
+        Align = Top
+        Size.Width = 345.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemdetaillabel'
+        TextSettings.HorzAlign = Center
+        Text = 
+          #1050#1072#1082#1086#1081' '#1086#1088#1075#1072#1085' '#1085#1077' '#1074#1093#1086#1076#1080#1090' '#1074' '#1087#1080#1097#1077#1074#1072#1088#1080#1090#1077#1083#1100#1085#1091#1102' '#1087#1089#1080#1089#1090#1077#1084#1091' '#1079#1077#1088#1085#1086#1103#1076#1085#1099#1093' '#1087#1090#1080#1094 +
+          '?'
+        TabOrder = 0
+      end
+      object b1Q3: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 90.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = #1052#1091#1089#1082#1091#1083#1100#1085#1099#1081' '#1078#1077#1083#1091#1076#1086#1082
+        OnClick = bQuest3Click
+      end
+      object b2Q3: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 154.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = #1047#1086#1073
+        OnClick = bQuest3Click
+      end
+      object b3Q3: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 226.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = #1046#1077#1083#1077#1097#1080#1089#1090#1099#1081' '#1078#1077#1083#1091#1076#1086#1082
+        OnClick = bQuest3Click
+      end
+      object b4Q3: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 298.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = #1058#1088#1072#1093#1077#1103
+        OnClick = bQuest3Click
+      end
+      object lAnt3: TLabel
+        Align = Top
+        Position.Y = 40.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = #1042#1072#1096' '#1086#1090#1074#1077#1090
+        TabOrder = 1
+      end
+    end
+    object tiQuestion4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '4'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Label7: TLabel
+        Align = Top
+        Size.Width = 345.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemdetaillabel'
+        TextSettings.HorzAlign = Center
+        Text = #1050#1072#1082#1086#1081' '#1086#1088#1075#1072#1085' '#1085#1077' '#1074#1093#1086#1076#1080#1090' '#1074' '#1076#1099#1093#1072#1090#1077#1083#1100#1085#1091#1102' '#1089#1080#1089#1090#1077#1084#1091' '#1087#1090#1080#1094'?'
+        TabOrder = 0
+      end
+      object lAnt4: TLabel
+        Align = Top
+        Position.Y = 40.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = #1042#1072#1096' '#1086#1090#1074#1077#1090
+        TabOrder = 1
+      end
+      object b1Q4: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = #1062#1077#1085#1090#1088#1072#1083#1100#1085#1099#1081' '#1073#1088#1086#1085#1093
+        OnClick = bQuest4Click
+      end
+      object b2Q4: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 152.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = #1055#1077#1088#1077#1076#1085#1080#1077' '#1074#1086#1079#1076#1091#1096#1085#1099#1077' '#1084#1077#1096#1082#1080
+        TextSettings.WordWrap = True
+        OnClick = bQuest4Click
+      end
+      object b3Q4: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 224.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = #1057#1088#1077#1076#1085#1080#1077' '#1074#1086#1079#1076#1091#1096#1085#1099#1077' '#1084#1077#1096#1082#1080
+        TextSettings.WordWrap = True
+        OnClick = bQuest4Click
+      end
+      object b4Q4: TButton
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Position.X = 48.000000000000000000
+        Position.Y = 296.000000000000000000
+        Size.Width = 257.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = #1047#1072#1076#1085#1080#1077' '#1074#1086#1079#1076#1091#1096#1085#1099#1077' '#1084#1077#1096#1082#1080
+        TextSettings.WordWrap = True
+        OnClick = bQuest4Click
+      end
+    end
+    object tiResult: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1056#1077#1079#1091#1083#1100#1090#1072#1090
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar3: TToolBar
+        Align = Bottom
+        Position.Y = 365.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'toolbarstyle'
+        TabOrder = 6
+      end
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Client
+        Size.Width = 345.000000000000000000
+        Size.Height = 365.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Viewport.Width = 337.000000000000000000
+        Viewport.Height = 357.000000000000000000
+      end
+    end
+  end
+  object tbTop: TToolBar
+    Size.Width = 345.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label2: TLabel
+      Align = Client
+      Size.Width = 297.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Trimming = None
+      Text = #1041#1080#1086#1083#1086#1075#1080#1103' 7-'#1082#1083#1072#1089#1089
+      TabOrder = 0
+    end
+    object SpeedButton5: TSpeedButton
+      Align = Right
+      Position.X = 297.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbutton'
+      Text = 'SpeedButton5'
+    end
+  end
+  object tbBottom: TToolBar
+    Align = Bottom
+    Position.Y = 461.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'toolbarstyle'
+    TabOrder = 3
+    object SpeedButton6: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'infotoolbutton'
+      Text = 'SpeedButton6'
+      OnClick = SpeedButton6Click
+    end
+  end
+  object ActionList: TActionList
+    Left = 40
+    Top = 368
+    object NextTabAction: TNextTabAction
+      Category = 'Tab'
+      TabControl = tbMain
+    end
+  end
+end
