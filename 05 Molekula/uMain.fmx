@@ -1,0 +1,105 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 754
+  ClientWidth = 850
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Align = Client
+    Color = claBlack
+    Size.Width = 850.000000000000000000
+    Size.Height = 706.000000000000000000
+    Size.PlatformDefault = False
+    object Light1: TLight
+      Color = claWhite
+      LightType = Directional
+      SpotCutOff = 180.000000000000000000
+      Position.X = -1.004785656929016000
+      Position.Y = 0.368264675140380900
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+    end
+    object LightMaterialSource1: TLightMaterialSource
+      Diffuse = claBlue
+      Ambient = xFF202020
+      Emissive = claNull
+      Specular = xFF606060
+      Shininess = 30
+      Left = 520
+      Top = 32
+    end
+    object Sphere1: TSphere
+      Width = 10.000000000000000000
+      Height = 10.000000000000000000
+      Depth = 10.000000000000000000
+      Opacity = 0.800000011920929000
+      SubdivisionsAxes = 40
+      SubdivisionsHeight = 40
+      MaterialSource = LightMaterialSource1
+      object Sphere2: TSphere
+        Position.X = 4.000000000000000000
+        Position.Y = 4.000000000000000000
+        Width = 6.000000000000000000
+        Height = 6.000000000000000000
+        Depth = 6.000000000000000000
+        SubdivisionsAxes = 40
+        SubdivisionsHeight = 40
+        MaterialSource = LightMaterialSource2
+      end
+      object Sphere3: TSphere
+        Position.X = -4.000000000000000000
+        Position.Y = 4.000000000000000000
+        Width = 6.000000000000000000
+        Height = 6.000000000000000000
+        Depth = 6.000000000000000000
+        SubdivisionsAxes = 40
+        SubdivisionsHeight = 40
+        MaterialSource = LightMaterialSource2
+      end
+      object FloatAnimation1: TFloatAnimation
+        Enabled = True
+        Duration = 5.000000000000000000
+        Loop = True
+        PropertyName = 'RotationAngle.Y'
+        StartValue = 0.000000000000000000
+        StopValue = 360.000000000000000000
+      end
+    end
+    object LightMaterialSource2: TLightMaterialSource
+      Diffuse = claRed
+      Ambient = xFF202020
+      Emissive = claNull
+      Specular = xFF606060
+      Shininess = 30
+      Left = 520
+      Top = 96
+    end
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 706.000000000000000000
+    Size.Width = 850.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object SpeedButton1: TSpeedButton
+      Position.X = 64.000000000000000000
+      Position.Y = 16.000000000000000000
+      StyleLookup = 'stepperbuttonleft'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+    object SpeedButton2: TSpeedButton
+      Position.X = 160.000000000000000000
+      Position.Y = 16.000000000000000000
+      StyleLookup = 'stepperbuttonright'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton2Click
+    end
+  end
+end
