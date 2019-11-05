@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 750
   Top = 270
-  Caption = 'Form1'
+  Caption = #1052#1103#1095#1080#1082
   ClientHeight = 480
   ClientWidth = 430
   Position = Designed
@@ -11,7 +11,7 @@ object Form1: TForm1
   Left = 750
   Top = 270
   DesignerMasterStyle = 3
-  object Circle1: TCircle
+  object Circle: TCircle
     Position.X = 184.000000000000000000
     Position.Y = 264.000000000000000000
     Size.Width = 50.000000000000000000
@@ -19,13 +19,52 @@ object Form1: TForm1
     Size.PlatformDefault = False
     object FloatAnimation1: TFloatAnimation
       AutoReverse = True
-      Enabled = True
       Duration = 1.000000000000000000
       Interpolation = Quadratic
       Loop = True
       PropertyName = 'Position.Y'
       StartValue = 0.000000000000000000
       StopValue = 264.000000000000000000
+    end
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 416.000000000000000000
+    Size.Width = 430.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = #1047#1072#1087#1091#1089#1082' '#1086#1073#1099#1095#1085#1099#1081
+      TextSettings.WordWrap = True
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 136.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 153.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1057' '#1086#1089#1090#1072#1085#1086#1074#1082#1086#1081
+      TextSettings.WordWrap = True
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Position.X = 312.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1057#1090#1086#1087
+      OnClick = Button3Click
     end
   end
 end

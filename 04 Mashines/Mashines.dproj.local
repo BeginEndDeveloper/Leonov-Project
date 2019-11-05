@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2019.10.28 21:26:24.115,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2019.10.28 21:46:44.908,D:\Project\RX10.3\Leonov Project\04 Mashines\uMain.fmx=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
-    <Transaction>2019.10.28 21:46:44.908,D:\Project\RX10.3\Leonov Project\04 Mashines\uMain.pas=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2019.10.28 21:46:49.049,D:\Project\RX10.3\Leonov Project\04 Mashines\Mashines.dproj=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.049,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Project\RX10.3\Leonov Project\04 Mashines\Mashines.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit2.fmx=D:\Project\RX10.3\Leonov Project\04 Mashines\uMain.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Project\RX10.3\Leonov Project\04 Mashines\uMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.115,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
   </Transactions>
-  <ActiveMobileDevice>   <NoProfile Android="127.0.0.1:62001"/>
-  </ActiveMobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile Android="127.0.0.1:62001"/>
+	</ActiveMobileDevice>
 </BorlandProject>

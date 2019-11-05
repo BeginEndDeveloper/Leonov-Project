@@ -30,9 +30,9 @@ type
     recYellow: TRectangle;
     FloatAnimation1: TFloatAnimation;
     FloatAnimation2: TFloatAnimation;
-    Button1: TButton;
+    btHide: TButton;
     Layout1: TLayout;
-    procedure Button1Click(Sender: TObject);
+    procedure btHideClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -46,7 +46,7 @@ implementation
 
 {$R *.fmx}
 
-procedure TForm2.Button1Click(Sender: TObject);
+procedure TForm2.btHideClick(Sender: TObject);
 begin
   Layout1.AnimateFloat('Opacity', 0, 1);
 end;
