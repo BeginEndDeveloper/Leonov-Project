@@ -15,6 +15,12 @@
         <Projects Include="04 Mashines\Mashines.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="05 Molekula\Molekula.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="06 Atoms\Atoms.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -59,14 +65,32 @@
     <Target Name="Mashines:Make">
         <MSBuild Projects="04 Mashines\Mashines.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Molekula">
+        <MSBuild Projects="05 Molekula\Molekula.dproj"/>
+    </Target>
+    <Target Name="Molekula:Clean">
+        <MSBuild Projects="05 Molekula\Molekula.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Molekula:Make">
+        <MSBuild Projects="05 Molekula\Molekula.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Atoms">
+        <MSBuild Projects="06 Atoms\Atoms.dproj"/>
+    </Target>
+    <Target Name="Atoms:Clean">
+        <MSBuild Projects="06 Atoms\Atoms.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Atoms:Make">
+        <MSBuild Projects="06 Atoms\Atoms.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines"/>
+        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines;Molekula;Atoms"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean"/>
+        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean;Molekula:Clean;Atoms:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make"/>
+        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make;Molekula:Make;Atoms:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
