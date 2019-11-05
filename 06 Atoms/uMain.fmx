@@ -1,0 +1,165 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 400.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 80.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object TrackBar1: TTrackBar
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      CanParentFocus = True
+      Max = 360.000000000000000000
+      Orientation = Horizontal
+      Position.X = 40.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 569.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = TrackBar1Change
+    end
+  end
+  object Layout2: TLayout
+    Align = Right
+    Position.X = 576.000000000000000000
+    Size.Width = 64.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TrackBar2: TTrackBar
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      CanParentFocus = True
+      Max = 360.000000000000000000
+      Orientation = Vertical
+      Position.X = 16.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 353.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnChange = TrackBar2Change
+    end
+  end
+  object Layout3: TLayout
+    Align = Client
+    Size.Width = 576.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Viewport3D1: TViewport3D
+      Align = Client
+      Color = claBlack
+      Size.Width = 576.000000000000000000
+      Size.Height = 400.000000000000000000
+      Size.PlatformDefault = False
+      object Dummy1: TDummy
+        Width = 1.000000000000000000
+        Height = 1.000000000000000000
+        Depth = 1.000000000000000000
+        object duOxygen: TDummy
+          Position.X = 8.000000000000000000
+          RotationAngle.Y = 90.000000000000000000
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+          Quanternion = '(0,0.70710676908493,0,0.70710676908493)'
+          object spOxygen1: TSphere
+            Position.X = -1.000000000000000000
+            Width = 4.000000000000000000
+            Height = 4.000000000000000000
+            Depth = 4.000000000000000000
+            MaterialSource = lmsBlue
+          end
+          object spOxygen2: TSphere
+            Position.X = 1.000000000000000000
+            Width = 4.000000000000000000
+            Height = 4.000000000000000000
+            Depth = 4.000000000000000000
+            MaterialSource = lmsBlue
+          end
+        end
+        object Light1: TLight
+          Color = claWhite
+          LightType = Directional
+          SpotCutOff = 180.000000000000000000
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+        end
+        object duWater: TDummy
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+          object Sphere1: TSphere
+            Width = 6.000000000000000000
+            Height = 6.000000000000000000
+            Depth = 6.000000000000000000
+            MaterialSource = lmsBlue
+            object Sphere2: TSphere
+              Position.X = -3.000000000000000000
+              Position.Y = 3.000000000000000000
+              Width = 4.000000000000000000
+              Height = 4.000000000000000000
+              Depth = 4.000000000000000000
+              MaterialSource = lmsRed
+            end
+            object Sphere3: TSphere
+              Position.X = 3.000000000000000000
+              Position.Y = 3.000000000000000000
+              Width = 4.000000000000000000
+              Height = 4.000000000000000000
+              Depth = 4.000000000000000000
+              MaterialSource = lmsRed
+            end
+          end
+        end
+      end
+    end
+  end
+  object lmsRed: TLightMaterialSource
+    Diffuse = claRed
+    Ambient = xFF202020
+    Emissive = claNull
+    Specular = xFF606060
+    Shininess = 30
+    Left = 113
+    Top = 24
+  end
+  object lmsGreen: TLightMaterialSource
+    Diffuse = claGreen
+    Ambient = xFF202020
+    Emissive = claNull
+    Specular = xFF606060
+    Shininess = 30
+    Left = 177
+    Top = 24
+  end
+  object lmsGray: TLightMaterialSource
+    Diffuse = claGray
+    Ambient = xFF202020
+    Emissive = claNull
+    Specular = xFF606060
+    Shininess = 30
+    Left = 257
+    Top = 24
+  end
+  object lmsBlue: TLightMaterialSource
+    Diffuse = claBlue
+    Ambient = xFF202020
+    Emissive = claNull
+    Specular = xFF606060
+    Shininess = 30
+    Left = 33
+    Top = 24
+  end
+end

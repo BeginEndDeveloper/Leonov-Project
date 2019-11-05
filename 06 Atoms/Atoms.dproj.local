@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.060,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019.11.04 21:33:51.661,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2019.11.04 22:01:16.281,D:\Project\RX10.3\Leonov Project\06 Atoms\uMain.fmx=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit4.fmx</Transaction>
+    <Transaction>2019.11.04 22:01:16.281,D:\Project\RX10.3\Leonov Project\06 Atoms\uMain.pas=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2019.11.04 22:01:19.193,D:\Project\RX10.3\Leonov Project\06 Atoms\Atoms.dproj=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019.11.04 22:10:42.440,=D:\Project\RX10.3\Leonov Project\06 Atoms\Unit5.pas</Transaction>
+    <Transaction>2019.11.04 22:17:53.363,D:\Project\RX10.3\Leonov Project\06 Atoms\uOxigen.fmx=D:\Project\RX10.3\Leonov Project\06 Atoms\Unit5.fmx</Transaction>
+    <Transaction>2019.11.04 22:17:53.363,D:\Project\RX10.3\Leonov Project\06 Atoms\uOxigen.pas=D:\Project\RX10.3\Leonov Project\06 Atoms\Unit5.pas</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="127.0.0.1:62001"/>
+  </ActiveMobileDevice>
+</BorlandProject>
