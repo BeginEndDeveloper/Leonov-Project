@@ -1,0 +1,153 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Position.X = 560.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'actiontoolbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 440.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object SpeedButton2: TSpeedButton
+      Align = Right
+      Position.X = 560.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'forwardtoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton2Click
+    end
+    object SpeedButton3: TSpeedButton
+      Align = Right
+      Position.X = 480.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'rewindtoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton3Click
+    end
+    object SpeedButton4: TSpeedButton
+      Align = Right
+      Position.X = 400.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'nexttoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton4Click
+    end
+    object SpeedButton5: TSpeedButton
+      Align = Right
+      Position.X = 320.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton5Click
+    end
+    object SpeedButton6: TSpeedButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton6Click
+    end
+    object SpeedButton7: TSpeedButton
+      Align = Left
+      Position.X = 80.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'nexttoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton7Click
+    end
+    object SpeedButton8: TSpeedButton
+      Align = Left
+      Position.X = 160.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'rewindtoolbutton'
+      Text = 'SpeedButton2'
+    end
+    object SpeedButton9: TSpeedButton
+      Align = Left
+      Position.X = 240.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'forwardtoolbutton'
+      Text = 'SpeedButton2'
+    end
+  end
+  object Chart1: TChart
+    Foot.Font.StyleExt = {00040000000200000004000000}
+    Legend.Title.Font.StyleExt = {00070000000000000004000000}
+    Legend.Visible = False
+    SubFoot.Font.StyleExt = {00040000000200000004000000}
+    Title.Text.Strings = (
+      'y(x)=x-*x+2')
+    BottomAxis.Automatic = False
+    BottomAxis.AutomaticMaximum = False
+    BottomAxis.AutomaticMinimum = False
+    BottomAxis.Maximum = 5.000000000000000000
+    LeftAxis.Automatic = False
+    LeftAxis.AutomaticMaximum = False
+    LeftAxis.AutomaticMinimum = False
+    LeftAxis.Maximum = 100.000000000000000000
+    TopAxis.Automatic = False
+    TopAxis.AutomaticMaximum = False
+    TopAxis.AutomaticMinimum = False
+    TopAxis.Maximum = 20.000000000000000000
+    View3D = False
+    Zoom.Brush.Kind = None
+    Zoom.Pen.Fill.Color = claSilver
+    Align = Client
+    TabOrder = 2
+    Size.Width = 640.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    ColorPaletteIndex = 13
+    object Series1: TLineSeries
+      Brush.BackColor = x00FFFFFF
+      LinePen.Width = 4.000000000000000000
+      Pointer.InflateMargins = True
+      Pointer.Style = psRectangle
+      Pointer.Visible = True
+      XValues.Name = 'X'
+      XValues.Order = loNone
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+  end
+end

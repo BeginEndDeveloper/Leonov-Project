@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.834,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit6.pas=D:\Project\RX10.3\Leonov Project\07 Bonus Snowman\uMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.834,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit6.fmx=D:\Project\RX10.3\Leonov Project\07 Bonus Snowman\uMain.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.059,=D:\Project\RX10.3\Leonov Project\07 Bonus Snowman\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.861,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Project\RX10.3\Leonov Project\07 Bonus Snowman\Snowman.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.297,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="127.0.0.1:62001"/>
+	</ActiveMobileDevice>
+</BorlandProject>
