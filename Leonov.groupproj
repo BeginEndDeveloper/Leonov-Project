@@ -30,6 +30,9 @@
         <Projects Include="09 Chart 2\Chart2.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="10 Diary of observation\DiaryOfObservation.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -119,14 +122,23 @@
     <Target Name="Chart2:Make">
         <MSBuild Projects="09 Chart 2\Chart2.dproj" Targets="Make"/>
     </Target>
+    <Target Name="DiaryOfObservation">
+        <MSBuild Projects="10 Diary of observation\DiaryOfObservation.dproj"/>
+    </Target>
+    <Target Name="DiaryOfObservation:Clean">
+        <MSBuild Projects="10 Diary of observation\DiaryOfObservation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DiaryOfObservation:Make">
+        <MSBuild Projects="10 Diary of observation\DiaryOfObservation.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines;Molekula;Atoms;Snowman;Chart;Chart2"/>
+        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines;Molekula;Atoms;Snowman;Chart;Chart2;DiaryOfObservation"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean;Molekula:Clean;Atoms:Clean;Snowman:Clean;Chart:Clean;Chart2:Clean"/>
+        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean;Molekula:Clean;Atoms:Clean;Snowman:Clean;Chart:Clean;Chart2:Clean;DiaryOfObservation:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make;Molekula:Make;Atoms:Make;Snowman:Make;Chart:Make;Chart2:Make"/>
+        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make;Molekula:Make;Atoms:Make;Snowman:Make;Chart:Make;Chart2:Make;DiaryOfObservation:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
