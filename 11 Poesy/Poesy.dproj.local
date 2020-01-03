@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.492,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.819,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2020.01.03 19:00:10.566,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2020.01.03 19:02:11.428,D:\Project\RX10.3\Leonov Project\11 Poesy\uMain.fmx=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.fmx</Transaction>
+    <Transaction>2020.01.03 19:02:11.428,D:\Project\RX10.3\Leonov Project\11 Poesy\uMain.pas=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2020.01.03 19:02:17.712,D:\Project\RX10.3\Leonov Project\11 Poesy\Poesy.dproj=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020.01.03 20:07:55.849,=D:\Project\RX10.3\Leonov Project\11 Poesy\Unit8.pas</Transaction>
+    <Transaction>2020.01.03 20:08:20.696,D:\Project\RX10.3\Leonov Project\11 Poesy\uNotification.pas=D:\Project\RX10.3\Leonov Project\11 Poesy\Unit8.pas</Transaction>
+    <Transaction>2020.01.03 20:08:20.696,D:\Project\RX10.3\Leonov Project\11 Poesy\uNotification.fmx=D:\Project\RX10.3\Leonov Project\11 Poesy\Unit8.fmx</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android64="127.0.0.1:62001" Android="127.0.0.1:62001"/>
+  </ActiveMobileDevice>
+</BorlandProject>

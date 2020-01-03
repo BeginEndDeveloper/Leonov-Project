@@ -1,0 +1,97 @@
+object fmNotification: TfmNotification
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 361
+  ClientWidth = 569
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object tbTop: TToolBar
+    Size.Width = 569.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Action = aBackToMainForm
+      Align = Left
+      Enabled = True
+      ImageIndex = -1
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+    end
+  end
+  object lbNotification: TListBox
+    Align = Client
+    Size.Width = 569.000000000000000000
+    Size.Height = 321.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 565.000000000000000000
+    Viewport.Height = 317.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      Size.Width = 565.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemnodetail'
+      TabOrder = 0
+      Text = #1063#1077#1088#1077#1079', '#1084#1080#1085
+      object sbInterval: TSpinBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        Cursor = crIBeam
+        Position.X = 440.000000000000000000
+        Position.Y = 24.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+      end
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 60.000000000000000000
+      Size.Width = 565.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemnodetail'
+      TabOrder = 1
+      Text = #1055#1086#1074#1090#1086#1088#1080#1090#1100' '#1089#1080#1080#1093
+      object Button1: TButton
+        Action = aNotify
+        Enabled = True
+        ImageIndex = -1
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 440.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 512
+    Top = 216
+    object aBackToMainForm: TAction
+      Text = #1053#1072#1079#1072#1076
+      OnExecute = aBackToMainFormExecute
+    end
+    object aNotify: TAction
+      Text = #1055#1086#1074#1090#1086#1088#1080#1090#1100
+      OnExecute = aNotifyExecute
+    end
+  end
+  object NotificationCenter1: TNotificationCenter
+    Left = 512
+    Top = 272
+  end
+end
