@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.ScrollBox,
   FMX.Memo, FMX.StdCtrls, FMX.Controls.Presentation, FMX.TabControl,
-  System.Actions, FMX.ActnList, FMX.Media, System.IOUtils;
+  System.Actions, FMX.ActnList, FMX.Media, System.IOUtils,
+  System.Permissions;
 
 type
   TfmMian = class(TForm)
@@ -14,7 +15,7 @@ type
     lbTop: TLabel;
     meFull: TMemo;
     tcMain: TTabControl;
-    TabItem1: TTabItem;
+    tiMain: TTabItem;
     tiEveryOtherLine: TTabItem;
     tiFirsWords: TTabItem;
     meEveryOtherLine: TMemo;
@@ -44,6 +45,7 @@ type
     procedure sbShowRecordToolBarClick(Sender: TObject);
     procedure sbHideRecordToolBarClick(Sender: TObject);
     procedure aShowNotificationFormExecute(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
     FMicrophone: TAudioCaptureDevice;
@@ -67,27 +69,45 @@ end;
 
 procedure TfmMian.aStartPlayBackExecute(Sender: TObject);
 begin
-  MediaPlayer.FileName := TPath.GetHomePath + '/poem.3GP';
+  // Задать имя файла для воспроизведения
+  MediaPlayer.FileName := TPath.GetHomePath + PathDelim + 'poem.3GP';
+  // Запустить проигрыватель
   MediaPlayer.Play;
 end;
 
 procedure TfmMian.aStartRecordExecute(Sender: TObject);
 begin
+  // Инициализация микрофона
   FMicrophone := TCaptureDeviceManager.Current.DefaultAudioCaptureDevice;
-
-  FMicrophone.FileName := TPath.GetHomePath + '/poem.3GP';
-
-  FMicrophone.StartCapture;
+  // задание файла для записи голоса
+  FMicrophone.FileName := TPath.GetHomePath + PathDelim + 'poem.3GP';
+  // начать запись голоса
+  try
+    FMicrophone.StartCapture;
+  except
+    on E: EPermissionException do // System.Permissions
+      ShowMessage('Нет доступа к записи звука');
+    on E: Exception do
+      ShowMessage('Ошибка');
+  end;
 end;
 
 procedure TfmMian.aStopPlayBackExecute(Sender: TObject);
 begin
+  // Остановить воспроизведение
   MediaPlayer.Stop;
 end;
 
 procedure TfmMian.aStopRecordExecute(Sender: TObject);
 begin
+  // Остановить запись голоса
   FMicrophone.StopCapture;
+end;
+
+procedure TfmMian.FormCreate(Sender: TObject);
+begin
+  tbRecord.Visible := False;
+  tcMain.ActiveTab := tiMain;
 end;
 
 procedure TfmMian.sbHideRecordToolBarClick(Sender: TObject);
@@ -97,7 +117,7 @@ end;
 
 procedure TfmMian.sbShowRecordToolBarClick(Sender: TObject);
 begin
-  tbRecord.Visible := false;
+  tbRecord.Visible := False;
 end;
 
 procedure TfmMian.tcMainChange(Sender: TObject);
@@ -113,7 +133,7 @@ begin
     for i := 0 to meFull.Lines.Count - 1 do
     begin
       Str := meFull.Lines[i];
-      GotFirst := false;
+      GotFirst := False;
       for j := Low(Str) to High(Str) do
       begin
         if GotFirst and (Str[j] <> ' ') then

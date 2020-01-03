@@ -13,6 +13,6 @@
     <Transaction>2020.01.03 20:07:55.849,=D:\Project\RX10.3\Leonov Project\11 Poesy\Unit8.pas</Transaction>
     <Transaction>2020.01.03 20:08:20.696,D:\Project\RX10.3\Leonov Project\11 Poesy\uNotification.pas=D:\Project\RX10.3\Leonov Project\11 Poesy\Unit8.pas</Transaction>
     <Transaction>2020.01.03 20:08:20.696,D:\Project\RX10.3\Leonov Project\11 Poesy\uNotification.fmx=D:\Project\RX10.3\Leonov Project\11 Poesy\Unit8.fmx</Transaction>
-  </Transactions>  <ActiveMobileDevice>   <NoProfile Android64="127.0.0.1:62001" Android="127.0.0.1:62001"/>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android64="127.0.0.1:62001" Android="3071RF1001007082"/>
   </ActiveMobileDevice>
 </BorlandProject>

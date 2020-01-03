@@ -1,15 +1,15 @@
 object fmNotification: TfmNotification
   Left = 0
   Top = 0
-  Caption = 'Form8'
   ClientHeight = 361
-  ClientWidth = 569
+  ClientWidth = 257
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnShow = FormShow
   DesignerMasterStyle = 0
   object tbTop: TToolBar
-    Size.Width = 569.000000000000000000
+    Size.Width = 257.000000000000000000
     Size.Height = 40.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
@@ -26,7 +26,7 @@ object fmNotification: TfmNotification
   end
   object lbNotification: TListBox
     Align = Client
-    Size.Width = 569.000000000000000000
+    Size.Width = 257.000000000000000000
     Size.Height = 321.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
@@ -34,10 +34,10 @@ object fmNotification: TfmNotification
     DefaultItemStyles.ItemStyle = ''
     DefaultItemStyles.GroupHeaderStyle = ''
     DefaultItemStyles.GroupFooterStyle = ''
-    Viewport.Width = 565.000000000000000000
+    Viewport.Width = 253.000000000000000000
     Viewport.Height = 317.000000000000000000
     object ListBoxItem1: TListBoxItem
-      Size.Width = 565.000000000000000000
+      Size.Width = 253.000000000000000000
       Size.Height = 60.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'listboxitemnodetail'
@@ -47,8 +47,8 @@ object fmNotification: TfmNotification
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         TabOrder = 0
         Cursor = crIBeam
-        Position.X = 440.000000000000000000
-        Position.Y = 24.000000000000000000
+        Position.X = 136.000000000000000000
+        Position.Y = 16.000000000000000000
         Margins.Top = 10.000000000000000000
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 10.000000000000000000
@@ -56,7 +56,7 @@ object fmNotification: TfmNotification
     end
     object ListBoxItem2: TListBoxItem
       Position.Y = 60.000000000000000000
-      Size.Width = 565.000000000000000000
+      Size.Width = 253.000000000000000000
       Size.Height = 60.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'listboxitemnodetail'
@@ -69,8 +69,8 @@ object fmNotification: TfmNotification
         Margins.Top = 10.000000000000000000
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 10.000000000000000000
-        Position.X = 440.000000000000000000
-        Position.Y = 24.000000000000000000
+        Position.X = 138.000000000000000000
+        Position.Y = 21.000000000000000000
         Size.Width = 97.000000000000000000
         Size.Height = 22.000000000000000000
         Size.PlatformDefault = False
@@ -79,8 +79,8 @@ object fmNotification: TfmNotification
     end
   end
   object ActionList1: TActionList
-    Left = 512
-    Top = 216
+    Left = 32
+    Top = 168
     object aBackToMainForm: TAction
       Text = #1053#1072#1079#1072#1076
       OnExecute = aBackToMainFormExecute
@@ -91,7 +91,7 @@ object fmNotification: TfmNotification
     end
   end
   object NotificationCenter1: TNotificationCenter
-    Left = 512
-    Top = 272
+    Left = 64
+    Top = 224
   end
 end

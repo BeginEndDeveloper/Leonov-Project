@@ -23,6 +23,7 @@ type
     aNotify: TAction;
     procedure aBackToMainFormExecute(Sender: TObject);
     procedure aNotifyExecute(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -53,6 +54,11 @@ begin
   finally
     myNotification.Free;
   end;
+end;
+
+procedure TfmNotification.FormShow(Sender: TObject);
+begin
+  sbInterval.Value := 1;
 end;
 
 end.
