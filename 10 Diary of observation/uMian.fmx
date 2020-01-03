@@ -45,15 +45,14 @@ object Main: TMain
         Size.PlatformDefault = False
         TabOrder = 0
         object SpeedButton1: TSpeedButton
-          Action = ChangeTabAction1
           Align = MostRight
-          Enabled = True
-          ImageIndex = -1
           Position.X = 592.000000000000000000
           Size.Width = 48.000000000000000000
           Size.Height = 48.000000000000000000
           Size.PlatformDefault = False
           StyleLookup = 'addtoolbutton'
+          Text = 'Go to TabItem3'
+          OnClick = SpeedButton1Click
         end
         object SpeedButton9: TSpeedButton
           Action = ShowShareSheetAction1
@@ -77,13 +76,13 @@ object Main: TMain
           TabOrder = 1
         end
       end
-      object ListBox1: TListBox
+      object lbTask: TListBox
         Align = Client
         Size.Width = 640.000000000000000000
         Size.Height = 432.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
-        OnClick = ListBox1Click
+        OnClick = lbTaskClick
         DisableFocusEffect = True
         DefaultItemStyles.ItemStyle = ''
         DefaultItemStyles.GroupHeaderStyle = ''
@@ -137,7 +136,6 @@ object Main: TMain
           Size.Height = 48.000000000000000000
           Size.PlatformDefault = False
           Text = #1057#1086#1093#1088#1072#1085#1080#1090#1100
-          OnClick = SpeedButton4Click
         end
       end
       object Layout1: TLayout
@@ -455,9 +453,9 @@ object Main: TMain
       end
     end
   end
-  object ActionList1: TActionList
+  object ActionList: TActionList
     Left = 288
-    Top = 184
+    Top = 72
     object ChangeTabAction1: TChangeTabAction
       Category = 'Tab'
       Tab = TabItem3
@@ -476,5 +474,24 @@ object Main: TMain
       Category = 'Media Library'
       OnBeforeExecute = ShowShareSheetAction1BeforeExecute
     end
+  end
+  object fdcBase: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite')
+    LoginPrompt = False
+    AfterConnect = fdcBaseAfterConnect
+    BeforeConnect = fdcBaseBeforeConnect
+    Left = 128
+    Top = 72
+  end
+  object fdtTask: TFDTable
+    Connection = fdcBase
+    Left = 128
+    Top = 120
+  end
+  object fdQuery: TFDQuery
+    Connection = fdcBase
+    Left = 208
+    Top = 72
   end
 end

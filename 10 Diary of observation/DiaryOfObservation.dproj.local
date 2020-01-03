@@ -2,16 +2,16 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>1899.12.30 00:00:00.000.819,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.603,D:\Project\RX10.3\Leonov Project\10 Diary of observation\uMian.fmx=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.603,D:\Project\RX10.3\Leonov Project\10 Diary of observation\uMian.pas=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.181,D:\Project\RX10.3\Leonov Project\10 Diary of observation\DiaryOfObservation.dproj=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.740,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.603,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas=D:\Project\RX10.3\Leonov Project\10 Diary of observation\uMian.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.181,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Project\RX10.3\Leonov Project\10 Diary of observation\DiaryOfObservation.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.664,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.060,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.524,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.492,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.603,D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.fmx=D:\Project\RX10.3\Leonov Project\10 Diary of observation\uMian.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android="127.0.0.1:62001"/>
+		<NoProfile Android="127.0.0.1:62001" Android64="127.0.0.1:62001"/>
 	</ActiveMobileDevice>
 </BorlandProject>
