@@ -1,0 +1,145 @@
+object Form9: TForm9
+  Left = 1050
+  Top = 90
+  Caption = 'Form9'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  Left = 1050
+  Top = 90
+  DesignerMasterStyle = 0
+  object paLeft: TPanel
+    Align = Left
+    Size.Width = 217.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object buDiscover: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1053#1072#1081#1090#1080
+      OnClick = buDiscoverClick
+    end
+    object buClear: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1054#1095#1080#1089#1090#1080#1090#1100
+      OnClick = buClearClick
+    end
+    object lbManager: TListBox
+      Position.X = 8.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnClick = lbManagerClick
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 196.000000000000000000
+      Viewport.Height = 117.000000000000000000
+    end
+    object lbProfiles: TListBox
+      Position.X = 8.000000000000000000
+      Position.Y = 204.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      OnClick = lbProfilesClick
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 196.000000000000000000
+      Viewport.Height = 117.000000000000000000
+    end
+  end
+  object lbPoem: TListBox
+    Align = Client
+    Size.Width = 423.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnClick = lbPoemClick
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 419.000000000000000000
+    Viewport.Height = 476.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      TabOrder = 0
+      Text = #1071' '#1087#1072#1084#1103#1090#1085#1080#1082' '#1089#1077#1073#1077' '#1074#1086#1079#1076#1074#1080#1075' '#1085#1077#1088#1091#1082#1086#1090#1074#1086#1088#1085#1099#1081','
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 19.000000000000000000
+      TabOrder = 1
+      Text = #1050' '#1085#1077#1084#1091' '#1085#1077' '#1079#1072#1088#1072#1089#1090#1077#1090' '#1085#1072#1088#1086#1076#1085#1072#1103' '#1090#1088#1086#1087#1072','
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 38.000000000000000000
+      TabOrder = 2
+      Text = #1042#1086#1079#1085#1077#1089#1089#1103' '#1074#1099#1096#1077' '#1086#1085' '#1075#1083#1072#1074#1086#1102' '#1085#1077#1087#1086#1082#1086#1088#1085#1086#1081
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Y = 57.000000000000000000
+      TabOrder = 3
+      Text = #1071' '#1087#1072#1084#1103#1090#1085#1080#1082' '#1089#1077#1073#1077' '#1074#1086#1079#1076#1074#1080#1075' '#1085#1077#1088#1091#1082#1086#1090#1074#1086#1088#1085#1099#1081'...'
+    end
+    object ListBoxItem5: TListBoxItem
+      Position.Y = 76.000000000000000000
+      TabOrder = 4
+    end
+    object ListBoxItem6: TListBoxItem
+      Position.Y = 95.000000000000000000
+      TabOrder = 5
+      Text = #1053#1077#1090', '#1074#1077#1089#1100' '#1103' '#1085#1077' '#1091#1084#1088#1091' '#8212' '#1076#1091#1096#1072' '#1074' '#1079#1072#1074#1077#1090#1085#1086#1081' '#1083#1080#1088#1077
+    end
+    object ListBoxItem7: TListBoxItem
+      Position.Y = 114.000000000000000000
+      TabOrder = 6
+      Text = #1052#1086#1081' '#1087#1088#1072#1093' '#1087#1077#1088#1077#1078#1080#1074#1077#1090' '#1080' '#1090#1083#1077#1085#1100#1103' '#1091#1073#1077#1078#1080#1090' '#8212
+    end
+    object ListBoxItem8: TListBoxItem
+      Position.Y = 133.000000000000000000
+      TabOrder = 7
+      Text = #1048' '#1089#1083#1072#1074#1077#1085' '#1073#1091#1076#1091' '#1103', '#1076#1086#1082#1086#1083#1100' '#1074' '#1087#1086#1076#1083#1091#1085#1085#1086#1084' '#1084#1080#1088#1077
+    end
+    object ListBoxItem9: TListBoxItem
+      Position.Y = 152.000000000000000000
+      TabOrder = 8
+      Text = #1046#1080#1074' '#1073#1091#1076#1077#1090' '#1093#1086#1090#1100' '#1086#1076#1080#1085' '#1087#1080#1080#1090'.'
+    end
+  end
+  object TetheringManager2: TTetheringManager
+    OnEndManagersDiscovery = TetheringManager2EndManagersDiscovery
+    OnEndProfilesDiscovery = TetheringManager2EndProfilesDiscovery
+    Text = 'TetheringAppProfile2'
+    AllowedAdapters = 'Network_V4'
+    Left = 104
+    Top = 384
+  end
+  object TetheringAppProfile2: TTetheringAppProfile
+    Manager = TetheringManager2
+    Text = 'TetheringAppProfile2'
+    Actions = <>
+    Resources = <>
+    Left = 104
+    Top = 424
+  end
+end
