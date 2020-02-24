@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.260,D:\Project\RX10.3\Leonov Project\12 Prompter Main\uMain.pas=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.819,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.646,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.260,D:\Project\RX10.3\Leonov Project\12 Prompter Main\uMain.fmx=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit8.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.312,D:\Project\RX10.3\Leonov Project\12 Prompter Main\PrompterMain.dproj=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,=D:\PC\Andrey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="127.0.0.1:62001" Android64="AVD_for_Galaxy_Nexus_by_Google"/>
+	</ActiveMobileDevice>
+</BorlandProject>

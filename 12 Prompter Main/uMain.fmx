@@ -1,0 +1,90 @@
+object Form8: TForm8
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 585
+  ClientWidth = 460
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object laCurrent: TLabel
+    Align = Top
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Margins.Left = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Size.Width = 440.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = #1050' '#1085#1077#1084#1091' '#1085#1077' '#1079#1072#1088#1072#1089#1090#1105#1090' '#1085#1072#1088#1086#1076#1085#1072#1103' '#1090#1088#1086#1087#1072
+    TabOrder = 1
+  end
+  object laNext: TLabel
+    Align = Top
+    AutoSize = True
+    StyledSettings = [Family, FontColor]
+    Margins.Left = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 34.000000000000000000
+    Size.Width = 440.000000000000000000
+    Size.Height = 220.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 55.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = #1042#1086#1079#1085#1077#1089#1089#1103' '#1086#1085' '#1074#1099#1096#1077' '#1075#1083#1072#1074#1086#1102' '#1085#1077#1087#1086#1082#1086#1088#1085#1086#1081
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 528.000000000000000000
+    Size.Width = 460.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Label1: TLabel
+      AutoSize = True
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 35.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.WordWrap = False
+      Text = 'Label1'
+      TabOrder = 1
+    end
+  end
+  object TetheringAppProfile1: TTetheringAppProfile
+    Manager = TetheringManager1
+    Text = 'TetheringAppProfile1'
+    Actions = <
+      item
+        Name = 'Action1'
+        IsPublic = True
+        Action = Action1
+        NotifyUpdates = False
+      end>
+    Resources = <>
+    OnResourceReceived = TetheringAppProfile1ResourceReceived
+    Left = 216
+    Top = 512
+  end
+  object TetheringManager1: TTetheringManager
+    OnPairedToRemote = TetheringManager1PairedToRemote
+    Text = 'TetheringManager1'
+    AllowedAdapters = 'Network_V4'
+    Left = 216
+    Top = 456
+  end
+  object ActionList1: TActionList
+    Left = 56
+    Top = 496
+    object Action1: TAction
+      Text = 'Action1'
+      OnExecute = Action1Execute
+    end
+  end
+end
