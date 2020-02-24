@@ -33,6 +33,15 @@
         <Projects Include="10 Diary of observation\DiaryOfObservation.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="11 Poesy\Poesy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="12 Prompter Main\PrompterMain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="13 Prompter Double\PrompterDouble.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -131,14 +140,41 @@
     <Target Name="DiaryOfObservation:Make">
         <MSBuild Projects="10 Diary of observation\DiaryOfObservation.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Poesy">
+        <MSBuild Projects="11 Poesy\Poesy.dproj"/>
+    </Target>
+    <Target Name="Poesy:Clean">
+        <MSBuild Projects="11 Poesy\Poesy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Poesy:Make">
+        <MSBuild Projects="11 Poesy\Poesy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PrompterMain">
+        <MSBuild Projects="12 Prompter Main\PrompterMain.dproj"/>
+    </Target>
+    <Target Name="PrompterMain:Clean">
+        <MSBuild Projects="12 Prompter Main\PrompterMain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PrompterMain:Make">
+        <MSBuild Projects="12 Prompter Main\PrompterMain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PrompterDouble">
+        <MSBuild Projects="13 Prompter Double\PrompterDouble.dproj"/>
+    </Target>
+    <Target Name="PrompterDouble:Clean">
+        <MSBuild Projects="13 Prompter Double\PrompterDouble.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PrompterDouble:Make">
+        <MSBuild Projects="13 Prompter Double\PrompterDouble.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines;Molekula;Atoms;Snowman;Chart;Chart2;DiaryOfObservation"/>
+        <CallTarget Targets="Timer;TestByology;CircleBool;Mashines;Molekula;Atoms;Snowman;Chart;Chart2;DiaryOfObservation;Poesy;PrompterMain;PrompterDouble"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean;Molekula:Clean;Atoms:Clean;Snowman:Clean;Chart:Clean;Chart2:Clean;DiaryOfObservation:Clean"/>
+        <CallTarget Targets="Timer:Clean;TestByology:Clean;CircleBool:Clean;Mashines:Clean;Molekula:Clean;Atoms:Clean;Snowman:Clean;Chart:Clean;Chart2:Clean;DiaryOfObservation:Clean;Poesy:Clean;PrompterMain:Clean;PrompterDouble:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make;Molekula:Make;Atoms:Make;Snowman:Make;Chart:Make;Chart2:Make;DiaryOfObservation:Make"/>
+        <CallTarget Targets="Timer:Make;TestByology:Make;CircleBool:Make;Mashines:Make;Molekula:Make;Atoms:Make;Snowman:Make;Chart:Make;Chart2:Make;DiaryOfObservation:Make;Poesy:Make;PrompterMain:Make;PrompterDouble:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
